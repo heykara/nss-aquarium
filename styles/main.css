@@ -1,0 +1,299 @@
+/*.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    background: /Users/kara/workspace/martins-aquarium/photos/hbg.jpeg" no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+display: flex;
+    
+  }
+  
+  .footer {
+    background: lightgreen;
+  }
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+  }
+  
+  .aside-1 {
+    background: gold;
+  }
+  
+  .aside-2 {
+    background: hotpink;
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  .img1
+  {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  body {
+    padding: 2em; 
+  }
+
+*/
+
+
+
+
+
+
+.wrapper {
+    display: flex;  
+    justify-content: space-evenly;
+    align-self: auto;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+  
+ 
+  }
+.box1
+  {
+
+    text-align: left;
+    align-items: flex-start;
+    
+  }
+
+
+
+
+
+
+.harvest_title 
+{
+    display: flex;  
+    justify-content: center;
+    border: 5px solid rgb(2, 89, 95);
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 30pt;
+    font-family: "Copperplate", "Times","serif";
+    
+}
+
+img {
+    padding: 1em, bottom;
+    display:flex;
+    width: 300px;
+    height: 250px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    max-width: auto;
+    height: auto;
+    position: relative;
+    border-bottom: 3em;
+    align-items: center;
+    
+}
+
+.name {
+color:  rgb(0, 0, 0);
+font-family: 'Copperplate', "Times","serif";
+font-size: 25px;
+font-style: bold;
+
+}  
+
+.quotes
+{
+color:  rgb(0, 0, 0);
+font-family: 'Times New Roman', "Times","serif";
+font-size: 15px;
+
+
+
+
+}
+.sname
+{
+color:  rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 25px;
+
+}
+.length
+{
+color: rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;;
+font-size: 15px;
+
+}
+.diet
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;;
+    font-size: 15px;
+}
+.mthoughts
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 15px;
+    
+}
+  /*
+ Flex 
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-width: 25%;
+    
+    
+    
+    
+ 
+
+
+
+    
+}
+
+}
+
+
+
+
+.box1{
+
+    border: 5px solid rgb(31, 64, 66);
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(63, 93, 99);
+    }
+
+.box2 {
+
+    border: 5px solid rgb(31, 64, 66);
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(63, 93, 99);
+
+}    
+.box4
+{
+
+    border: 5px solid rgb(31, 64, 66);
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(63, 93, 99);
+
+}
+.box3
+
+{
+    border: 5px solid rgb(31, 64, 66);
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(63, 93, 99);
+    
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
+.name
+{
+
+color:  rgb(10, 44, 53);
+font-family: "Copperplate", "Times","serif";
+font-style: bold;
+font-size: xx-large;
+}
+.sname
+{
+color:  rgb(10, 44, 53);
+font-family: 'Times New Roman', Times, serif;
+font-style:italic;
+
+}
+.length
+{
+color: rgb(10, 44, 53);
+font-family: 'Times New Roman', Times, serif;;
+font-size:small
+}
+.diet
+{
+    color: rgb(10, 44, 53);
+    font-family: 'Times New Roman', Times, serif;;
+    font-size:medium;
+}
+.mthoughts
+{
+    color: rgb(10, 44, 53);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: medium;
+
+    /* .harvest_title 
+    display: flex;  
+    justify-content: center;
+    border: 5px solid rgb(2, 89, 95);
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: rgb(65, 188, 207);
+    font-size: xx-large;
+    font-family: "Copperplate", "Times","serif";
+
+
+}
+        */
+
+
+
+
+
+
+
